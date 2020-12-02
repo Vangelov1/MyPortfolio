@@ -129,6 +129,11 @@
 
     .left-aeon {
         max-width: 100%;
+        padding-right: 0px;
+    }
+    .right-aeon{
+        max-width: 100%;
+        padding: 0px;
     }
     
     .textfield {
