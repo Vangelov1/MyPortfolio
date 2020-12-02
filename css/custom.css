@@ -1,0 +1,152 @@
+/* This stylesheet is meant for custom styles, on top of The Peel Template */
+
+.twocol{
+    display: flex;
+    flex-wrap: auto;
+    justify-content: space-between;
+    
+}
+
+.textfield {
+    width: 50%;
+}
+
+.twocol2{
+    display: flex;
+    flex-wrap: auto;
+    justify-content: space-between;
+    flex-flow: row;
+    align-items: center;
+}
+
+.twocol3{
+    display: flex;
+    flex-wrap: auto;
+    justify-content: space-between;
+    flex-flow: row;
+    align-items: center;
+}
+
+
+.centered {
+    text-align: center;
+}
+
+.image-mobile2 {
+    width: 45%;
+}
+
+.image-mobile {
+    max-width: 50%;
+}
+
+
+
+ .gapper {
+     padding-left: 30px;
+ }
+ 
+ .right {
+     padding-left: 70px;
+ }
+
+.left {
+    max-width: 450px;
+
+}
+
+.right2 {
+    padding-left: 70px;
+    width: 50%;
+}
+
+.left2 {
+    width: 70%
+}
+
+.white {
+    color: white;
+}
+
+.onecol2 {
+    padding-bottom: 59px;
+}
+
+.left-aeon {
+    padding-right: 50px;   
+    max-width: 50%;
+}
+
+.right-aeon {
+    max-width: 60%;
+}
+
+.left-brand {
+    max-width: 900px;
+}
+
+.right-brand {
+    padding-left: 50px;
+    max-width: 700px;
+}
+
+.flexer {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.csection1{
+    padding-bottom: 50px;
+}
+
+.customstripe {
+    content: '';
+    margin-bottom: 24px;
+    width: 40px;
+    height: 8px;
+    background: white;
+    display: block;
+}
+
+.col1 {
+    max-width: 30%;
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+    .twocol2{
+        display: flex;
+        flex-wrap: auto;
+        justify-content: space-between;
+        flex-flow: column;
+        align-items: center;
+    }
+    
+    .textfield {
+        width: 50%;
+        text-align: center;
+    }
+
+    .hide-on-small-devices {
+        display: none;
+    }
+
+.flexer {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.col1 {
+    max-width: 100%;
+}
+
+  }
