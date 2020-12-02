@@ -126,19 +126,40 @@
         flex-flow: column;
         align-items: center;
     }
+    .twocol3{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .right-brand {
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
 
     .left-aeon {
         max-width: 100%;
         padding-right: 0px;
+        text-align: center;
     }
     .right-aeon{
         max-width: 100%;
         padding: 0px;
+        text-align: center;
+    }
+    .image-mobile{
+        max-width: 100%;
+        padding: 0px;
+    }
+    .textfield {
+        width: 100%;
+        padding: 0px;
+        text-align: center;
     }
     
     .textfield {
-        width: 50%;
-        text-align: center;
+        width: 100%;
+        padding: 0px;
     }
 
     .hide-on-small-devices {
