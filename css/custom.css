@@ -126,6 +126,10 @@
         flex-flow: column;
         align-items: center;
     }
+
+    .left-aeon {
+        max-width: 100%;
+    }
     
     .textfield {
         width: 50%;
