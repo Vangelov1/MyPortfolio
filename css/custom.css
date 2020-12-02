@@ -115,6 +115,10 @@
     max-width: 30%;
 }
 
+.spacer2 {
+    padding-left: 30px;
+    margin: 50px;
+}
 
 
 @media screen and (max-width: 900px) {
@@ -125,6 +129,7 @@
         justify-content: space-between;
         flex-flow: column;
         align-items: center;
+        text-align: center;
     }
     .twocol3{
         display: flex;
@@ -137,13 +142,33 @@
         width: 100%;
         text-align: center;
         padding: 0px;
+        align-items: center;
+        margin: 0px;
     }
+    
 
     .left{
         display: flex;
         flex-wrap: wrap;
         width: 100%;
+        margin: 0px;
+        padding: 0%;
+        text-align: center;
+        align-content: center;
     }
+    .right {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-flow: column;
+    }
+
+    .left2 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
     .right2 {
         width: 100%;
         padding: 0px;
