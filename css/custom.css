@@ -130,6 +130,24 @@
         display: flex;
         flex-wrap: wrap;
     }
+    .twocol {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .left{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .right2 {
+        width: 100%;
+        padding: 0px;
+    }
 
     .right-brand {
         width: 100%;
