@@ -128,13 +128,17 @@
     max-width: 50%;
 }
 
+.expand {
+    width: 100%;
+}
+
 
 
 @media screen and (max-width: 900px) {
 
     .centered {
         text-align: center;
-        
+
     }
     .aeon-left2 {
         max-width: 100%;
