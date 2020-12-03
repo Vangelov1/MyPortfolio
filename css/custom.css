@@ -132,6 +132,10 @@
 
 @media screen and (max-width: 900px) {
 
+    .centered {
+        text-align: center;
+        
+    }
     .aeon-left2 {
         max-width: 100%;
         padding: 0px;
@@ -199,6 +203,15 @@
         padding-right: 0px;
         text-align: center;
     }
+    .aeon-left{
+        padding: 0px;
+        max-width: 100%;
+    }
+    .aeon-right{
+        padding: 0px;
+        width: 100%;
+    }
+
     .right-aeon{
         max-width: 100%;
         padding: 0px;
