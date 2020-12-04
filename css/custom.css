@@ -140,10 +140,8 @@
     width: 100%;
 }
 
-.twocol2-f {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.fusion-slide {
+    max-width: 40%;
 }
 
 
