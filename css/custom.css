@@ -141,9 +141,12 @@
 }
 
 .fusion-slide {
-    max-width: 40%;
+    max-width: 50%;
 }
 
+.textfield-f {
+    max-width: 40%;
+}
 
 
 @media screen and (max-width: 900px) {
