@@ -18,6 +18,12 @@
     flex-flow: row;
     align-items: center;
 }
+.twocol2-nocenter{
+    display: flex;
+    flex-wrap: auto;
+    justify-content: space-between;
+    flex-flow: row;
+}
 
 .twocol3{
     display: flex;
@@ -142,14 +148,33 @@ max-width: 50%;
 
 .fusion-slide {
     max-width: 50%;
+    width: 50%;
 }
 
 .textfield-f {
-    max-width: 40%;
+    width: 50%;
+    padding-left: 50px;
+}
+
+.typo-hide {
+    display: none;
 }
 
 
 @media screen and (max-width: 900px) {
+
+    .typo-hide {
+        display: inline;
+    }
+
+    .typo {
+        display: none;
+    }
+
+    .textfield-f {
+        width: 100%;
+        padding: 0px;
+    }
 
     .centered {
         text-align: center;
@@ -160,12 +185,22 @@ max-width: 50%;
         padding: 0px;
     }
 
+    .aeon-rightt {
+        padding: 0px;
+    }
+
     .twocol2{
         display: flex;
         flex-wrap: auto;
         justify-content: space-between;
         flex-flow: column;
-        align-items: center;
+        text-align: center;
+    }
+    .twocol2-nocenter{
+        display: flex;
+        flex-wrap: auto;
+        justify-content: space-between;
+        flex-flow: column;
         text-align: center;
     }
     .twocol3{
