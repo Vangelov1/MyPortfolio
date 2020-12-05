@@ -88,12 +88,12 @@
 }
 
 .left-brand {
-    max-width: 900px;
+    width: 50%;
 }
 
 .right-brand {
     padding-left: 50px;
-    max-width: 700px;
+    width: 55%;
 }
 
 .flexer {
@@ -167,6 +167,13 @@ max-width: 50%;
 
 @media screen and (max-width: 900px) {
 
+    .left-brand {
+        width: 100%;
+    }
+
+    .right-brand {
+        width: 100%;
+    }
 
     .fcolors {
         display: none;
