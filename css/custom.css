@@ -160,8 +160,21 @@ max-width: 50%;
     display: none;
 }
 
+.fcolors2 {
+    display: none;
+}
+
 
 @media screen and (max-width: 900px) {
+
+
+    .fcolors {
+        display: none;
+    }
+
+    .fcolors2 {
+        display: inline;
+    }
 
     .right {
         padding: 0;
