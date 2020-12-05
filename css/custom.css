@@ -163,6 +163,10 @@ max-width: 50%;
 
 @media screen and (max-width: 900px) {
 
+    .specific {
+        text-align: center;
+    }
+
     .typo-hide {
         display: inline;
     }
