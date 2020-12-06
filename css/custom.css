@@ -167,6 +167,11 @@ max-width: 50%;
 
 @media screen and (max-width: 900px) {
 
+    .left {
+        max-width: 100%;
+    
+    }
+
     .left-brand {
         width: 100%;
     }
