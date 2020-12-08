@@ -158,6 +158,7 @@ max-width: 50%;
 
 .typo-hide {
     display: none;
+    justify-content: center;
 }
 
 .fcolors2 {
@@ -200,10 +201,12 @@ max-width: 50%;
 
     .typo-hide {
         display: inline;
+        justify-content: center;
     }
 
     .typo {
         display: none;
+        justify-content: center;
     }
 
     .textfield-f {
