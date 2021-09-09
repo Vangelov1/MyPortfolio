@@ -17,6 +17,7 @@ html {
   /* 2 */
 }
 
+
 /**
  * Remove default margin.
  */
@@ -163,6 +164,11 @@ sup {
 sub {
   bottom: -0.25em;
 }
+
+ .widget-image-caption wp-caption-text {
+  color: #4B4B4B;
+  font-family: "Inter", Sans-serif;
+ }
 
 /* Embedded content
    ========================================================================== */
